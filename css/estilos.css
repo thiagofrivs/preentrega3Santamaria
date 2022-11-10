@@ -118,25 +118,13 @@ footer {
 }
 footer .logo {
   margin: 10px;
+  margin-left: 100px;
 }
 footer .logo a img {
   width: 200px;
 }
-footer .whatsapp {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  margin: 20px;
-}
-footer .whatsapp a img {
-  width: 70px;
-}
-footer .whatsapp a img:hover {
-  width: 80px;
-}
 footer .imagenesFooter {
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: space-between;
 }
@@ -150,6 +138,30 @@ footer .derechos {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+@media (max-width: 600px) {
+  footer .derechos {
+    display: none;
+  }
+  footer .logo a img {
+    width: 100px;
+  }
+  footer .imagenesFooter a img {
+    width: 30px;
+  }
+}
+.whatsapp {
+  position: fixed;
+  bottom: 10px;
+  left: 20px;
+  /*margin: 20px;*/
+}
+.whatsapp a img {
+  width: 70px;
+}
+.whatsapp a img:hover {
+  width: 80px;
 }
 
 /*# sourceMappingURL=estilos.css.map */
