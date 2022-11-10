@@ -1,0 +1,52 @@
+/*MAIN INDEX*/
+main{
+    background-image:url("../imagenes/fondo.jpg");
+    h2{
+        text-align: center;
+        color: white;
+    }
+    h3{
+        color: white;
+    }
+    p{
+        color: white;
+    }
+    .container{
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 200px;
+        
+    }
+    .carousel{
+        width: 30% !important;
+    }
+
+    .link{
+        background-color: #131313;
+        &:hover{
+            position: relative;
+            left: 10px;
+            a{
+                color: white;
+            }
+        }
+        a{
+            text-decoration: none;
+            color: grey;
+        }
+    }
+    .descripcion{
+        display: flex;
+        justify-content: space-between;
+        text-align:center;
+        padding-bottom: 30px;
+        margin: 20px;
+        div{
+            p{
+                text-align: start;
+                width: 450px;
+            }   
+        }
+    }
+}
