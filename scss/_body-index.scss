@@ -15,7 +15,13 @@ main{
         margin-top: 100px;
         display: flex;
         justify-content: space-between;
-        margin-bottom: 200px;
+        margin-bottom: 150px;
+        .items{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
         
     }
     .carousel{
@@ -42,6 +48,7 @@ main{
         text-align:center;
         padding-bottom: 30px;
         margin: 20px;
+        margin-bottom: 0;
         div{
             p{
                 text-align: start;

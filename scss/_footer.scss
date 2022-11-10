@@ -1,0 +1,43 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #131313;
+    .logo {
+        margin: 10px;
+        a {
+            img {
+                width: 200px;
+            }
+        }
+    }
+    .whatsapp{
+        position:fixed;
+        bottom: 0;
+        right: 0;
+        margin: 20px;
+        
+        a img{
+            width: 70px;
+            &:hover{
+                width: 80px;
+            }
+        }
+    }
+    .imagenesFooter{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        a img{
+            width: 40px;
+            margin-right: 100px;
+        }
+    }
+    .derechos{
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

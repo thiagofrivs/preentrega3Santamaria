@@ -73,7 +73,13 @@ main .container {
   margin-top: 100px;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 200px;
+  margin-bottom: 150px;
+}
+main .container .items {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 main .carousel {
   width: 30% !important;
@@ -98,10 +104,52 @@ main .descripcion {
   text-align: center;
   padding-bottom: 30px;
   margin: 20px;
+  margin-bottom: 0;
 }
 main .descripcion div p {
   text-align: start;
   width: 450px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #131313;
+}
+footer .logo {
+  margin: 10px;
+}
+footer .logo a img {
+  width: 200px;
+}
+footer .whatsapp {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+}
+footer .whatsapp a img {
+  width: 70px;
+}
+footer .whatsapp a img:hover {
+  width: 80px;
+}
+footer .imagenesFooter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+footer .imagenesFooter a img {
+  width: 40px;
+  margin-right: 100px;
+}
+footer .derechos {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=estilos.css.map */
