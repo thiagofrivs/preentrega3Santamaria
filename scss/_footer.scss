@@ -4,7 +4,6 @@ footer {
     background-color: #131313;
     .logo {
         margin: 10px;
-        margin-left: 100px;
         a {
             img {
                 width: 200px;
@@ -27,11 +26,25 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
+        justify-content: end;
+    }
+    .whatsapp{
+        position:fixed;
+        bottom: 10px;
+        right: 20px;
+        
+        /*margin: 20px;*/
+        
+        a img{
+            width: 70px;
+            &:hover{
+                width: 80px;
+            }
+        }
     }
 }
 
-@media (max-width:600px){
+@media (max-width:720px){
     footer{
         .derechos{
             display: none
@@ -45,20 +58,6 @@ footer {
             a img{
                 width: 30px;
             }
-        }
-    }
-}
-.whatsapp{
-    position:fixed;
-    bottom: 10px;
-    left: 20px;
-    
-    /*margin: 20px;*/
-    
-    a img{
-        width: 70px;
-        &:hover{
-            width: 80px;
         }
     }
 }

@@ -50,10 +50,17 @@ main{
         margin: 20px;
         margin-bottom: 0;
         div{
+            padding: 20px;
             p{
                 text-align: start;
-                width: 450px;
+                width:auto;
             }   
         }
+    }
+}
+
+@media (max-width:720px){
+    .descripcion{
+        flex-direction: column;
     }
 }
