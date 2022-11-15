@@ -4,8 +4,8 @@
 }
 
 footer {
+    @include centerSpace;
     display: flex;
-    justify-content: space-between;
     background-color: #131313;
     .logo {
         margin: 10px;
@@ -36,9 +36,6 @@ footer {
         position:fixed;
         bottom: 10px;
         right: 20px;
-        
-        /*margin: 20px;*/
-        
         a img{
             width: 70px;
             &:hover{

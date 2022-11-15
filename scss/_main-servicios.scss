@@ -1,5 +1,7 @@
 /*SERVICIOS*/
 
+$color:black;
+
 @mixin centerSpace{
     justify-content: space-between;
     align-items: center;
@@ -7,7 +9,7 @@
 
 @mixin anclas{
     text-decoration: none;
-    color: black
+    color: $color;
 }
 
 @mixin columna{
@@ -19,7 +21,7 @@ main{
     a{
         @include anclas;
         &:hover{
-            color: black
+            color: $color;
         }
     }
     
@@ -31,7 +33,7 @@ main{
         width: 10rem;
         margin: 20px;
         p{
-            color: black
+            color: $color;
         }
     }
     .superCaja{
