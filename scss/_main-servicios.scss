@@ -1,0 +1,72 @@
+/*SERVICIOS*/
+
+@mixin centerSpace{
+    justify-content: space-between;
+    align-items: center;
+}
+
+@mixin anclas{
+    text-decoration: none;
+    color: black
+}
+
+@mixin columna{
+    flex-direction: column
+}
+
+main{
+    
+    a{
+        @include anclas;
+        &:hover{
+            color: black
+        }
+    }
+    
+    .papa{
+        @include centerSpace;
+        display: inline-block;
+    }
+    .card{
+        width: 10rem;
+        margin: 20px;
+        p{
+            color: black
+        }
+    }
+    .superCaja{
+        @include centerSpace;
+        display: flex;
+        
+        
+    }
+    .contactate{
+        display: inline-block;
+        margin: 30px;
+        color: white;
+        a{
+            color: skyblue;
+            &:hover{
+                text-decoration:underline ;
+            }
+        }
+    }
+    ul{
+        display: flex;
+    }
+}
+
+@media(max-width:720px){
+    .secundario{
+        display: none;
+    }
+    .primario{
+        @include columna;
+    }
+    .superCaja{
+        @include columna;
+    }
+    .contactate{
+        text-align: center;
+    }
+}

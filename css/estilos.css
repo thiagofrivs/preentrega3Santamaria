@@ -41,11 +41,6 @@ header .nav-item:hover {
 header .nav-link:hover {
   color: blueviolet;
 }
-header .caca {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
 
 @media (max-width: 720px) {
   header h1 {
@@ -118,6 +113,13 @@ main .descripcion div p {
   .descripcion {
     flex-direction: column;
   }
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .items {
+    margin: 40px;
+  }
 }
 footer {
   display: flex;
@@ -132,8 +134,8 @@ footer .logo a img {
 }
 footer .imagenesFooter {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
 }
 footer .imagenesFooter a img {
   width: 40px;
@@ -168,6 +170,60 @@ footer .whatsapp a img:hover {
   }
   footer .imagenesFooter a img {
     width: 30px;
+  }
+}
+/*SERVICIOS*/
+main a {
+  text-decoration: none;
+  color: black;
+}
+main a:hover {
+  color: black;
+}
+main .papa {
+  justify-content: space-between;
+  align-items: center;
+  display: inline-block;
+}
+main .card {
+  width: 10rem;
+  margin: 20px;
+}
+main .card p {
+  color: black;
+}
+main .superCaja {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+main .contactate {
+  display: inline-block;
+  margin: 30px;
+  color: white;
+}
+main .contactate a {
+  color: skyblue;
+}
+main .contactate a:hover {
+  text-decoration: underline;
+}
+main ul {
+  display: flex;
+}
+
+@media (max-width: 720px) {
+  .secundario {
+    display: none;
+  }
+  .primario {
+    flex-direction: column;
+  }
+  .superCaja {
+    flex-direction: column;
+  }
+  .contactate {
+    text-align: center;
   }
 }
 

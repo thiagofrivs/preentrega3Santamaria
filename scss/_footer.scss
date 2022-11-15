@@ -1,3 +1,8 @@
+@mixin centerSpace{
+    justify-content: space-between;
+    align-items: center;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -14,8 +19,7 @@ footer {
     .imagenesFooter{
         display: flex;
         
-        align-items: center;
-        justify-content: space-between;
+        @include centerSpace;
         a img{
             width: 40px;
             margin-right: 100px;
