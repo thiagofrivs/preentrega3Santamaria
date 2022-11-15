@@ -35,8 +35,9 @@ main{
         }
     }
     .superCaja{
-        @include centerSpace;
         display: flex;
+        align-items: center;
+        justify-content: space-around;
         
         
     }
@@ -53,6 +54,9 @@ main{
     }
     ul{
         display: flex;
+    }
+    li{
+        text-decoration: none;
     }
 }
 
