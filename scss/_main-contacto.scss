@@ -27,15 +27,18 @@ main{
             height: 50vh;
         }
     }
+    .textarea{
+        width: 100%;
+    }
     textarea{
-        width: 50%;
+        width: 100%;
     }
     .email{
         width: 100%;
     }
 }
 
-@media (max-width:1000px){
+@media (max-width:720px){
     main{
         form{
             display: flex;
@@ -46,7 +49,13 @@ main{
                 flex-direction: column;
             }
             textarea{
-                width: 100%vh;
+                width: 50%;
+            }
+            .textarea{
+                display: flex;
+                justify-content: center;
+                width: 100%;
+                margin-bottom: 20px;
             }
         }
         .mapa{
